@@ -1,0 +1,63 @@
+
+{{> menu}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2>Welcome to the Playlist App!</h2>
+    <p>
+      This app will view and a collection of playlists.
+    </p>
+    <img src = "/wallpaper1.jpg" class = "ui centered image">
+
+      <div class="ui five statistics" style="margin-top: 1em;">
+    
+    <div class="statistic">
+      <div class="value">
+        <i class="music icon"></i> 
+      </div>
+      <div class="label">
+        App Title: <br>
+        {{info.appTitle}}
+      </div>
+    </div>
+        <div class="statistic">
+      <div class="value">
+        <i class="code branch icon"></i> 
+      </div>
+      <div class="label">
+        App Version: 1.0 <br>
+       {{info.version}}
+      </div>
+    </div>    
+    <div class="statistic">
+      <div class="value">
+        <i class="map pin icon"></i> 
+      </div>
+      <div class="label">
+        Made in: The deise<br>
+        {{info.location}}
+      </div>
+    </div>    
+    <div class="statistic">
+      <div class="value">
+        <i class="user icon"></i> 
+      </div>
+      <div class="label">
+        Created by: Jamie Stokes <br>
+        {{info.creators.0.name}}
+      </div>
+    </div> 
+    <div class="statistic">
+      <div class="value">
+        <i class="user plus icon"></i> 
+      </div>
+      <div class="label">
+        With help from: the lads <br>
+        {{info.creators.1.name}}
+      </div>
+    </div> 
+
+   
+  </div>
+
+</section>
+

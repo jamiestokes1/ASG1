@@ -1,0 +1,44 @@
+{{> menu id="Collection Details"}}
+
+<section class="ui left aligned middle aligned segment">
+  
+    <h2>Playlist Details</h2>
+      <p>
+
+
+  {{#each playlists}}
+  
+    <section class="ui left aligned middle aligned scrolling segment">
+
+      <h3 class="ui header">
+        {{title}}
+      </h3>      
+  
+      <table class="ui unstackable striped table">
+        <thead>
+          <tr>
+            <th>Song</th>
+            <th>Artist</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each songs}}
+            <tr>
+              <td>
+                {{title}}
+              </td>
+              <td>
+                {{artist}}
+              </td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+      
+    </section>
+  
+  {{/each}}
+
+</section>
+
+</section>
