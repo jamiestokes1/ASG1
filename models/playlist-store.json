@@ -2,49 +2,49 @@
   "playlistCollection": [
     {
       "id" : "01",
-      "title": "Doors Best Hits!",
+      "title": "Favourite action Movies",
       "songs": [
         {
           "id" : "04",
-          "title": "The End",
-          "artist": "The Doors"
+          "title": "Kill Bill",
+          "artist": "Quentin Tarantino"
         },
         {
           "id" : "05",
-          "title": "When the musics over",
-          "artist": "The Doors"
+          "title": "Terminator",
+          "artist": "James cameron"
         },
         {
           "id" : "06",
-          "title": "RoadHouse Blues",
-          "artist": "The Doors"
+          "title": "James Bond: No time to die",
+          "artist": "Cary joji Fukunaga"
         }
       ]
     },
     {
       "id" : "02",
-      "title": "Abbey Road",
+      "title": "Favourite comedy Movies",
       "songs": [
         {
           "id" : "07",
-          "title": "Oh darling",
-          "artist": "The beatles"
+          "title": "Hot fuzz",
+          "artist": "Edgar Wright"
         },
         {
           "id" : "08",
-          "title": "Here comes the sun",
-          "artist": "The Beatles"
+          "title": "Step brothers",
+          "artist": "Adam mckay"
         },
         {
           "id" : "09",
-          "title": "Something",
-          "artist": "The beatles"
+          "title": "Anchor man",
+          "artist": "Adam mckay"
         }
       ]
     },
     {
       "id" : "03",
-      "title": "Best 60s music",
+      "title": "Best 00s films",
       "songs": []
     }
   ]

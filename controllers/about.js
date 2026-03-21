@@ -11,7 +11,7 @@ const viewData = {
     };
 
 
- response.render('About', viewData);
+ response.render('about', viewData);
   }
   }
 export default about;
